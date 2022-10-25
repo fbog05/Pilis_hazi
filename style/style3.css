@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+html{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #CCCCCC;
+}
+
+#container{
+    background: white;
+    margin: 0 auto;
+    width: 900px;
+}
+
+#header{
+    background: url('../img/logo3.jpg');
+    height: 170px;
+}
+
+#header h1{
+    color: white;
+    text-transform: uppercase;
+    margin-left: 180px;
+    padding-top: 5px;
+    font-size: 2em;
+}
+
+#sidebar{
+    width: 24.9999%;
+    float: right;
+}
+
+#content{
+    width: 640px;
+    float: left;
+    padding: 20px 0 20px 20px;
+}
+
+#content .news{
+    margin-bottom: 40px;
+}
+
+#content .news h2{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    background: #996600;
+    color: white;
+    padding-left: 5px;
+}
+
+#content .news p{
+    line-height: 1.5;
+    text-align: justify;
+    padding-bottom: 20px;
+    color: #657030;
+}
+
+#content .news p img{
+    float: left;
+    margin-right: 20px;
+}
+
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+#sidebar .block{
+    background: white;
+}
+
+#sidebar .block h3{
+    color: black;
+    background: #CCCCCC;
+    text-align: center;
+    margin: 20px 0 10px 25px;
+}
+
+#sidebar .block ul{
+    list-style-type: none;
+}
+
+#sidebar .block ul li{
+    margin-bottom: 10px;
+}
+
+#sidebar .block ul li:last-child{
+    margin-bottom: 90px;
+}
+
+#sidebar .block ul li .menupont{
+    color: #657030;
+    text-decoration: none;
+    margin-left: 90px;
+}
+
+#sidebar .block ul li .menupont:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+#footer{
+    color: white;
+    text-align: center;
+    background: #DB9D66;
+    padding-bottom: 40px;
+}
+
+
+
